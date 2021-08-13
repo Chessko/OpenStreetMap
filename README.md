@@ -36,11 +36,7 @@ A AStar Search based route planner on a given open street map.
 4. Run it: `./traffic_simulation`.
 ./OSM_A_star_search
 
-```
-Or to specify a map file:
-```
-./OSM_A_star_search -f ../<your_osm_file.osm>
-```
+To specify a map file: ./OSM_A_star_search -f ../<your_osm_file.osm>
 
 ## Testing
 
