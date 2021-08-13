@@ -1,19 +1,17 @@
-# Route Planning Project
+# CPPND: Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+## Learnings
+This project had been part of the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213) I completed. I had been developing a Open Street Map Planner under expert guidance which got me to learn about and gain practical experience in:
+* C++ Foundations (Syntax, Basic types, Control structures 
+* AStar Search Algorithm
+* Writing Multifile Programs (.h & .cpp files)
+* Cmake & Make
+
+## Description
 
 <img src="map.png" width="600" height="450" />
 
-## Cloning
-
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
-```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
+A AStar Search based route planner on a given open street map.  
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
@@ -30,22 +28,14 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
 
-## Compiling and Running
+## Basic Build Instructions
 
-### Compiling
-To compile the project, first, create a `build` directory and change to that directory:
-```
-mkdir build && cd build
-```
-From within the `build` directory, then run `cmake` and `make` as follows:
-```
-cmake ..
-make
-```
-### Running
-The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
-```
+1. Clone this repo.
+(2. Make a build directory in the top level directory: `mkdir build && cd build`)
+3. Compile: `cmake .. && make`
+4. Run it: `./traffic_simulation`.
 ./OSM_A_star_search
+
 ```
 Or to specify a map file:
 ```
